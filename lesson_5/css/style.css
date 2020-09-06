@@ -24,3 +24,10 @@ h1, h2, h3, h4{
 .ord-text{
     color: darkgreen;
 }
+.content{
+    position: fixed;
+    right: 0;
+}
+body{
+    margin-right: 250px;
+}
