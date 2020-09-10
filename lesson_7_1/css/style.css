@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+.back{
+    display: block;
+    position:absolute;
+    left:50%;
+    margin-left:-960px;
+    top:50%;
+    margin-top:-361.5px;
+    width:1920px;
+    height:723px;;
+    background-color: #f9f9f9;
+    flex-wrap: wrap;
+}
+.title{
+    width: 552px;
+    height: 31px;
+    color: #000000;
+    font-family: "Proxima Nova";
+    font-size: 36px;
+    font-weight: 400;
+    margin-left: 683px;
+    margin-top: 100px;
+    display: inline-block;  
+}
+.product{
+    width: 1139px;
+    height: 210px;
+    /* border: 1px solid red; */
+    margin-top: 125px;
+    margin-left: 391px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.white{
+    width: 263px;
+    height: 210px;
+    background-color: #ffffff;
+    /* border: 1px solid red; */
+}
+.element-1{
+    margin-left: 23px;
+}
+.element-2{
+    margin-left: 21px;
+}
+.element-3{
+    margin-left: 25px;
+}
+.text-1{
+    display: flex;
+    width: 949px;
+    height: 11px;
+    margin-top: 25px;
+    margin-left: 481px;
+    justify-content: space-between;
+}
+.product-name{
+    /* width: 84px;
+    height: 11px; */
+    color: #000000;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 300;
+}
+.text-2{
+    display: flex;
+    justify-content: space-between;
+    width: 971px;
+    height: 15px;
+    margin-left: 475px;
+    margin-top: 25px;
+}
+.product_price{
+    color: #000000;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 700;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    width: 1076px;
+    height: 55px;
+    margin-top: 25px;
+    margin-left: 422px;
+    /* border: 1px solid red; */
+}
+.button-element{
+    width: 200px;
+    height: 55px;
+    border: 1px solid #23bac1;
+    padding-left: 74px;
+    padding-top: 23px;
+}
+.buy{
+    width: 51px;
+    height: 9px;
+    color: #23bac1;
+    font-family: "Proxima Nova";
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
